@@ -24,7 +24,7 @@ This document is for some matplotlib meta information and other important notes 
 * `add_artist` & other *add_...* methods (more refined control)
     * Artists are first created and added to `Axes` or `Figure`, e.g. `circle = mpatches.Circle(...); ax.add_artist(circle)` <br/>
 
-    The general method is `add_artist` (without adjusting the data limit after addition). Other dedicated methods will be primitive-oriented (e.g. `add_line`) or container-oriented (e.g. `add_collection`). Normally primitive-oriented methods will not adjust the data limit after addition but container-oriented methods will have this option.
+    The general method is `add_artist` (without adjusting the data limit after addition). Other dedicated methods will be primitive-oriented (e.g. `add_line`) or collection-oriented (e.g. `add_collection`). Normally primitive-oriented methods will not adjust the data limit after addition but collection-oriented methods will have this option.
 
 * Axes plotting methods e.g. `Axes.plot`, `Axes.bar` 
 
